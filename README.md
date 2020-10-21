@@ -22,7 +22,7 @@ O objetivo desta API é permitir que os tribunais realizar as validação de dad
 
 **Salve como CSV e coloque este arquivo na pasta user_credentials do projeto com o nome new_user_credentials.csv: (user_credentials/new_user_credentials.csv) Copie o 'access key id' e o 'secret access key' e informe no arquivo ocr.py.**
 
-![](img/03.png)
+![](imgs/03.png)
 
 
 ### Pré-requisitos
