@@ -1,4 +1,4 @@
-# CELINA
+# CILINA
 
 O objetivo desta API é permitir que os tribunais realizar as validação de dados e informações do XML que serão enviados para o serviço REST do Modelo de Transferência de Dados do CNJ. As verificações são realizadas com o uso de Inteligênicia Artificial e Aprendizado de Máquina.
 
@@ -10,20 +10,17 @@ O objetivo desta API é permitir que os tribunais realizar as validação de dad
 
 ## Iniciando
 
-**Para começar você precisa de uma conta AWS e criar um user no console da aws : [AWS Console](https://console.aws.amazon.com/)
-Não se preocupe, a conta pede um cartão de crédito, mas a aplicação não fará nenhuma cobrançã.**
+**Para começar você precisa de uma conta AWS e criar um user no console da aws : [AWS Console](https://console.aws.amazon.com/) Não se preocupe, a conta pede um cartão de crédito, mas a aplicação não fará nenhuma cobrançã.**
 
 ![](imgs/01.png)
 
-**Assossie as seguintes permissões**
+**Associe as seguintes permissões**
 
 ![](imgs/02.png)
 
 **Crie uma chave de acesso:**
 
-**Salve como CSV e coloque este arquivo na pasta user_credentials do projeto com o nome new_user_credentials.csv: (user_credentials/new_user_credentials.csv)
-Copie o 'access key id' e o 'secret access key' e informe no arquivo ocr.py.
-**
+**Salve como CSV e coloque este arquivo na pasta user_credentials do projeto com o nome new_user_credentials.csv: (user_credentials/new_user_credentials.csv) Copie o 'access key id' e o 'secret access key' e informe no arquivo ocr.py.**
 
 ![](img/03.png)
 
@@ -65,4 +62,5 @@ python sendXML.py
 
 
 
-* **Time 09 - Desafio 02**
+## Time 
+* **09 - Desafio 02**
