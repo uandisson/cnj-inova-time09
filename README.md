@@ -10,7 +10,7 @@ O objetivo desta API é permitir que os tribunais realizar as validação de dad
 
 ## Iniciando
 
-**Para começar você precisa de uma conta AWS e criar um user no console da aws : [AWS Console](https://console.aws.amazon.com/) Não se preocupe, a conta pede um cartão de crédito, mas a aplicação não fará nenhuma cobrançã.**
+**Para começar você precisa de uma conta AWS e criar um user no console da aws : [AWS Console](https://console.aws.amazon.com/) Não se preocupe, a conta pede um cartão de crédito, mas a aplicação não fará nenhuma cobrança.**
 
 ![](imgs/01.png)
 
@@ -25,7 +25,7 @@ O objetivo desta API é permitir que os tribunais realizar as validação de dad
 ![](img/03.png)
 
 
-### Pre-requisitos
+### Pré-requisitos
 
 Instale Python3, Pip3 e AWS CLI em seu ambiente.
 

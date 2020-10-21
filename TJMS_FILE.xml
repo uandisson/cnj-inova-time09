@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:processos xmlns="http://www.cnj.jus.br/intercomunicacao-2.2.2" xmlns:ns2="http://www.cnj.jus.br/replicacao-nacional">
+  <ns2:processo>
+    <dadosBasicos competencia="8" classeProcessual="1116" codigoLocalidade="959" nivelSigilo="0" numero="09203721020158120001" dataAjuizamento="20150206110015"
+    		procEl="1" dscSistema="1">      
+      <polo polo="AT">
+        <parte assistenciaJudiciaria="false" intimacaoPendente="0">
+          <pessoa nome="Município de Campo GrandeMS" sexo="D" tipoPessoa="juridica">
+            <documento codigoDocumento="00104875732" emissorDocumento="SSP" tipoDocumento="NB"/>
+            <endereco cep="79002072">
+              <logradouro>Avenida Afonso Pena</logradouro>
+              <numero>3297</numero>
+              <bairro>Centro</bairro>
+              <cidade>Campo Grande</cidade>
+              <estado>MS</estado>
+              <pais>BR</pais>
+            </endereco>            
+          </pessoa>
+          <advogado intimacao="false" nome="Dentes Dontes" tipoRepresentante="A" inscricao="MS9393449D">
+            <endereco cep="93930222">
+              <logradouro>Rua Saint Romain</logradouro>
+              <numero>1524</numero>
+              <bairro>Jardim Tijuca</bairro>
+              <cidade>Campo Grande</cidade>
+			  <codCidade>5002704</codCidade>
+              <estado>MS</estado>
+              <pais>BR</pais>
+            </endereco>
+          </advogado>
+        </parte>
+      </polo>
+      <polo polo="PA">
+        <parte assistenciaJudiciaria="false" intimacaoPendente="0">
+          <pessoa nome="Ms Venceslaus" sexo="F" tipoPessoa="fisica" numeroDocumentoPrincipal="00000000000">
+            <endereco cep="29292122">
+              <logradouro>Rua Alcebíades Barbosa</logradouro>
+              <numero>1147</numero>
+              <bairro>Nova Lima</bairro>
+              <cidade>Campo Grande</cidade>
+              <estado>MS</estado>
+              <pais>BR</pais>
+            </endereco>
+          </pessoa>
+        </parte>
+      </polo>
+      <assunto principal="true">
+        <codigoNacional>6017</codigoNacional>
+      </assunto>      
+      
+      <processoVinculado numeroProcesso="10106222620198260077" vinculo="RR"/>
+      <relacaoIncidental numeroProcesso="10107998720198260077" tipoRelacao="PI" classeProcessual="1268"/>      
+      <siglaTribunal>TJMS</siglaTribunal>
+      <grau>G2</grau>
+      
+      <valorCausa>1525.91</valorCausa>
+      
+      <orgaoJulgador codigoMunicipioIBGE="959" codigoOrgao="17316" instancia="REV" nomeOrgao="Vara de Execução Fiscal da Fazenda Pública Municipal"/>
+      
+    </dadosBasicos>
+    <movimento dataHora="20150826150015" identificadorMovimento="1">
+      <movimentoNacional codigoNacional="240"/>
+      <magistradoProlator>00842355430</magistradoProlator>
+      <peticao>http://localhost/cnj/peticao.pdf</peticao>
+    </movimento>
+    <movimento dataHora="20150206110013" identificadorMovimento="2">
+      <movimentoLocal codigoMovimento="50339" codigoPaiNacional="85" descricao="Juntada de Petição Intermediária Realizada"/>
+    </movimento>
+    <movimento dataHora="20150206110014" identificadorMovimento="3" tipoDecisao="1">
+      <movimentoNacional codigoNacional="581">
+        <complemento>Documento</complemento>        
+      </movimentoNacional>
+      <complementoNacional codComplemento="4" descricaoComplemento="tipo_de_documento" codComplementoTabelado="117"/>
+    </movimento>
+    <movimento dataHora="20150206110014" identificadorMovimento="4">
+      <movimentoNacional codigoNacional="123">
+        <complemento>18:motivo_da_remessa:38:em grau de recurso:7:destino:1ª Vara Cível</complemento>
+      </movimentoNacional>
+      <complementoNacional codComplemento="18" descricaoComplemento="motivo_da_remessa" codComplementoTabelado="38"/>
+    </movimento>
+    <movimento dataHora="20150206110015" identificadorMovimento="5">
+      <movimentoLocal codigoMovimento="50001" codigoPaiNacional="26" descricao="Processo Distribuído por Sorteio"/>
+    </movimento>
+    <movimento dataHora="20150206110016" identificadorMovimento="6">
+      <movimentoLocal codigoMovimento="50053" codigoPaiNacional="51" descricao="Conclusos para Despacho"/>
+    </movimento>
+    <movimento dataHora="20150301214819" responsavelMovimento="17164266859" tipoResponsavelMovimento="1" identificadorMovimento="5">
+      <movimentoLocal codigoMovimento="50500" codigoPaiNacional="11025" descricao="Despacho de recebimento da inicial"/>
+    </movimento>
+    <movimento dataHora="20150301214821" identificadorMovimento="7">
+      <movimentoLocal codigoMovimento="50012" codigoPaiNacional="132" descricao="Recebidos os Autos do Juiz de Direito"/>
+    </movimento>
+    <movimento dataHora="20150302095112" identificadorMovimento="8">
+      <movimentoLocal codigoMovimento="50601" codigoPaiNacional="11383" descricao="Autos preparados para expedição"/>
+    </movimento>
+    <movimento dataHora="20190208101235" identificadorMovimento="9">
+      <movimentoLocal codigoMovimento="50611" codigoPaiNacional="60" descricao="Expedição de Carta de Citação"/>
+      <orgaoJulgador codigoMunicipioIBGE="959" codigoOrgao="3559" instancia="ORIG" nomeOrgao="1a. Vara de Fazenda Pública e de Registros Públicos"/>
+    </movimento>
+    <movimento dataHora="20190219000000" identificadorMovimento="10">
+      <movimentoLocal codigoMovimento="50753" codigoPaiNacional="581" descricao="Juntada de AR - Resultado Positivo"/>
+    </movimento>
+    <movimento dataHora="20190221234716" identificadorMovimento="11">
+      <movimentoLocal codigoMovimento="50566" codigoPaiNacional="48" descricao="Prazo em Curso"/>
+    </movimento>
+    <movimento dataHora="20190307144906" identificadorMovimento="12">
+      <movimentoNacional codigoNacional="1051">
+        <complemento>Decurso de Prazo</complemento>
+      </movimentoNacional>
+    </movimento>
+    <movimento dataHora="20191206165835" identificadorMovimento="13">
+      <movimentoNacional codigoNacional="11383">
+        <complemento>Ato ordinatório</complemento>
+      </movimentoNacional>
+    </movimento>
+    <movimento dataHora="20191206165920" identificadorMovimento="14">
+      <movimentoLocal codigoMovimento="50314" codigoPaiNacional="60" descricao="Certidão Cartorária"/>
+    </movimento>
+    <movimento dataHora="20191216020941" identificadorMovimento="15">
+      <movimentoLocal codigoMovimento="50314" codigoPaiNacional="60" descricao="Certidão Cartorária"/>
+    </movimento>
+  </ns2:processo>
+  
+</ns2:processos>
